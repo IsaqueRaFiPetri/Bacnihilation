@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject prefab;
-    public float spawnRate = 1f;
-    public float minHeight = -1f;
-    public float maxHeight = 1f;
+    public GameObject enemy;
+    public float spawnRate = 2f;
+    float nextSpawn;
 
-    private void OnEnable()
+    void Update()
     {
-        InvokeRepeating(nameof(Spawn), spawnRate, spawnRate);
-    }
-
-    private void OnDisable()
-    {
-        CancelInvoke(nameof(Spawn));
-    }
-
-    private void Spawn()
-    {
-        GameObject ruler = Instantiate(prefab, transform.position, Quaternion.identity);
-        ruler.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
+        if(Time.time > nextSpawn)
+        {
+            nextSpawn = Time.time + spawnRate;
+            Vector2 randomSpawnPosition = new Vector2(Random.Range(-2.5f, 3),5);
+            Instantiate(enemy, randomSpawnPosition, Quaternion.identity);
+        }
     }
 }
 //video de referencia: https://www.youtube.com/watch?v=AI8XNNRpTTw
+//video de referencia: https://www.youtube.com/watch?v=IbiwNnOv5So
