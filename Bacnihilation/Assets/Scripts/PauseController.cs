@@ -26,6 +26,7 @@ public class PauseController : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        Debug.Log("Quit");
     }
 }
 //video de referencia: https://www.youtube.com/watch?v=9dYDBomQpBQ

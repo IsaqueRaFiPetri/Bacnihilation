@@ -1,19 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    public GameObject destroyEnemy;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject bacterias;
+    public Text scoreText;
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        
+        Debug.Log("I morreu");
+        Destroy(gameObject);
     }
 }
