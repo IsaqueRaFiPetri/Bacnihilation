@@ -13,7 +13,7 @@ public class Spawner : MonoBehaviour
         if(Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnRate;
-            Vector2 randomSpawnPosition = new Vector2(Random.Range(-2.5f, 3),6);
+            Vector2 randomSpawnPosition = new Vector2(Random.Range(-2.5f, 2.8f),7);
             Instantiate(enemy, randomSpawnPosition, Quaternion.identity);
         }
     }

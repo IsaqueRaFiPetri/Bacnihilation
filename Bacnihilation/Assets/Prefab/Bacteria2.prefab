@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9041280985257195022
+--- !u!1 &4179659743597654192
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5919710141114131065}
-  - component: {fileID: 6018871510804303879}
-  - component: {fileID: -8955768763314092226}
-  - component: {fileID: -6601692117020899574}
-  - component: {fileID: 3643450608697617624}
+  - component: {fileID: 4771556387183264062}
+  - component: {fileID: 7525244639889674604}
+  - component: {fileID: 6163546369906015418}
+  - component: {fileID: 7983561922428236225}
+  - component: {fileID: 1385718768422793617}
   m_Layer: 0
-  m_Name: Bacteria1
-  m_TagString: Enemy
+  m_Name: Bacteria2
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5919710141114131065
+--- !u!4 &4771556387183264062
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041280985257195022}
+  m_GameObject: {fileID: 4179659743597654192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.1880846, y: 2.5294135, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6018871510804303879
+--- !u!212 &7525244639889674604
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041280985257195022}
+  m_GameObject: {fileID: 4179659743597654192}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.6415094, g: 0.30891714, b: 0.2753649, a: 1}
+  m_Color: {r: 0.23820755, g: 0.5, b: 0.45545495, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -87,14 +87,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &-8955768763314092226
+--- !u!50 &6163546369906015418
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041280985257195022}
+  m_GameObject: {fileID: 4179659743597654192}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -102,19 +102,19 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0.25
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &-6601692117020899574
+--- !u!61 &7983561922428236225
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041280985257195022}
+  m_GameObject: {fileID: 4179659743597654192}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -134,19 +134,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3643450608697617624
+--- !u!114 &1385718768422793617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041280985257195022}
+  m_GameObject: {fileID: 4179659743597654192}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2400fddc7e83ff947ada025de2f56641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bacterias: {fileID: 9041280985257195022}
-  remainClicks: 1
-  point: 1
+  bacterias: {fileID: 4179659743597654192}
+  remainClicks: 2
   pontuation: 
