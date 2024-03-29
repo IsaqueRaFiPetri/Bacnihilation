@@ -10,6 +10,8 @@ public class MenuController : MonoBehaviour
     public void PlayBTN()
     {
         SceneManager.LoadScene("GameScene");
+        /*Damage.gameOverPainel.SetActive(false);
+        Time.timeScale = 1;*/
     }
 
     public void OpenCreditsPainel()

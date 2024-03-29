@@ -6,7 +6,8 @@ using UnityEngine.Video;
 
 public class HeartSistem : MonoBehaviour
 {
-    public int life;
+    public static HeartSistem Instance;
+    public static int life;
     public int maxLife;
 
     public Image[] heart;
@@ -15,7 +16,8 @@ public class HeartSistem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Instance = this;
+        life = maxLife;
     }
 
     // Update is called once per frame
