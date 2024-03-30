@@ -8,9 +8,7 @@ public class Ally : MonoBehaviour
 {
     public GameObject atom;
     public int remainClicks;
-    public static int point;
-    public string pontuation;
-
+    
     private void OnMouseDown()
     {
         remainClicks -= 1;

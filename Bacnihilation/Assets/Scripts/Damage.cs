@@ -52,8 +52,10 @@ public class Damage : MonoBehaviour
     public void RestartBTN()
     {
         SceneManager.LoadScene(1);
+        HeartSistem.life += 4;
         gameOverPainel.SetActive(false);
         Time.timeScale = 1;
+        Enemy.point = 0;
     }
     public void BackToMenu()
     {
