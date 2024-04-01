@@ -8,6 +8,7 @@ public class Damage : MonoBehaviour
     public GameObject damageBox;
     public GameObject gameOverPainel, damagePainel;
     private float timer;
+    public GameObject enemy1, enemy2, ally;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class Damage : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            Destroy(collision.GetComponent<GameObject>());
+            Destroy(collision.gameObject);
             HeartSistem.life -= 1;
 
             /*damagePainel.SetActive(true);
@@ -42,7 +43,7 @@ public class Damage : MonoBehaviour
         }
         if (collision.CompareTag("Ally"))
         {
-            Destroy(collision.GetComponent<GameObject>());
+            Destroy(collision.gameObject);
         }
 
 

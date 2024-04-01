@@ -522,6 +522,9 @@ MonoBehaviour:
   damageBox: {fileID: 364746287}
   gameOverPainel: {fileID: 1525719810}
   damagePainel: {fileID: 345708855}
+  enemy1: {fileID: 9041280985257195022, guid: 28d783bffdd892340aa46406165ee367, type: 3}
+  enemy2: {fileID: 4179659743597654192, guid: e3ff926b1df1778479fe43a7fde182f7, type: 3}
+  ally: {fileID: 8503991898014053854, guid: 5cb47b655df9fdc4eb93969e75f08355, type: 3}
 --- !u!1 &365165042
 GameObject:
   m_ObjectHideFlags: 0
