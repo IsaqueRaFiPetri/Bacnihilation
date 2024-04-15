@@ -7,8 +7,8 @@ using UnityEngine.Video;
 public class HeartSistem : MonoBehaviour
 {
     public static HeartSistem Instance;
-    public static int life;
-    public int maxLife;
+    public static int life;    //vida atual
+    public int maxLife;       //vida máxima
 
     public Image[] heart;
     public Sprite full;

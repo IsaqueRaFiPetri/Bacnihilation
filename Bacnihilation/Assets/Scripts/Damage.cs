@@ -10,13 +10,11 @@ public class Damage : MonoBehaviour
     private float timer;
     public GameObject enemy1, enemy2, ally;
 
-    // Start is called before the first frame update
-    void Start()
+   void Start()
     {
         //timer += Time.deltaTime;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (HeartSistem.life <= 0)
@@ -30,24 +28,20 @@ public class Damage : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            damagePainel.SetActive(true);
+            timer = 0;
             Destroy(collision.gameObject);
-            HeartSistem.life -= 1;
-
-            /*damagePainel.SetActive(true);
-            
-            if (timer >= 0.2f)
+            HeartSistem.life -= 1;            
+            if (timer == 0.2f)
             {
-                damagePainel.SetActive(false);
                 timer = 0;
-            }*/
+                damagePainel.SetActive(false);
+            }
         }
         if (collision.CompareTag("Ally"))
         {
             Destroy(collision.gameObject);
         }
-
-
-
     }
 
     public void RestartBTN()
