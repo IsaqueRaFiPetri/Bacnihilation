@@ -28,15 +28,8 @@ public class Damage : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            damagePainel.SetActive(true);
-            timer = 0;
             Destroy(collision.gameObject);
             HeartSistem.life -= 1;            
-            if (timer == 0.2f)
-            {
-                timer = 0;
-                damagePainel.SetActive(false);
-            }
         }
         if (collision.CompareTag("Ally"))
         {
