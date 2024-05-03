@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6163546369906015418}
   - component: {fileID: 7983561922428236225}
   - component: {fileID: 1385718768422793617}
+  - component: {fileID: 8982920402827213728}
   m_Layer: 0
   m_Name: Bacteria2
   m_TagString: Enemy
@@ -76,8 +77,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.23820755, g: 0.5, b: 0.45545495, a: 1}
+  m_Sprite: {fileID: -117071512, guid: b4158b629c3568f46aadc63b32d743fa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -125,7 +126,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0833334, y: 1.0851651}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,3 +150,23 @@ MonoBehaviour:
   bacterias: {fileID: 4179659743597654192}
   remainClicks: 2
   pontuation: 
+--- !u!95 &8982920402827213728
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4179659743597654192}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66dded3a433218d4cb9318bb51c120cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

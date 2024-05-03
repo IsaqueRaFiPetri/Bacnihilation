@@ -471,6 +471,7 @@ GameObject:
   - component: {fileID: 227645620}
   - component: {fileID: 227645622}
   - component: {fileID: 227645621}
+  - component: {fileID: 227645623}
   m_Layer: 5
   m_Name: ImageBac2
   m_TagString: Untagged
@@ -496,7 +497,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -297.9635, y: 148.0039}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 108.33333, y: 108.51651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227645621
 MonoBehaviour:
@@ -511,14 +512,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23921569, g: 0.5019608, b: 0.45490196, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -117071512, guid: b4158b629c3568f46aadc63b32d743fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -536,6 +537,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227645619}
   m_CullTransparentMesh: 1
+--- !u!95 &227645623
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227645619}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 652c33b2b5e730043916ee8101ee3874, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &339629211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,7 +1458,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d7c27cc77e90bb04390c69be694e1bcf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 88cbfa47e4244a54db65b481d8659b3d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.6
   m_Pitch: 1
@@ -1953,7 +1974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0.9411765}
+  m_Color: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2597,9 +2618,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Developers:\nIsaque Ramos Figueiredo Petri\n\nThird-Party Assets:\n- Hearts
-    -> VampireGirl;\n- Sounds -> L.i.Z.e.L.l.E_+, Salom\xE9_Lubczanski & SoundBiterSFX\n\nSpecial
-    thanks:\n- Beatriz R. S.\n- Louise S. N."
+  m_text: "Developer:\nIsaque Ramos Figueiredo Petri\n\nThird-Party Assets:\n- Hearts
+    -> VampireGirl;\n- Sounds -> L.i.Z.e.L.l.E_+, Salom\xE9_Lubczanski; jivatma07\r;
+    SergeQuadrado & SoundBiterSFX\n\nSpecial thanks:\n- Beatriz R. S.\n- Louise S.
+    N."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
