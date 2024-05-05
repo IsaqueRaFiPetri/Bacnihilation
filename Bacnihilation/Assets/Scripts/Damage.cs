@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Damage : MonoBehaviour
 {
+    public GameObject audioGameplay;
     public GameObject damageBox;
     public GameObject gameOverPainel, damagePainel;
-    private float timer;
     public GameObject enemy1, enemy2, ally;
 
    void Start()
@@ -19,6 +19,7 @@ public class Damage : MonoBehaviour
     {
         if (HeartSistem.life <= 0)
         {
+            audioGameplay.GetComponent<AudioSource>().enabled = false;
             gameOverPainel.SetActive(true);
             Time.timeScale = 0;
         }
