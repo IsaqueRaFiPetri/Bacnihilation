@@ -496,7 +496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297.9635, y: 148.0039}
+  m_AnchoredPosition: {x: -297.9635, y: 10.0039215}
   m_SizeDelta: {x: 108.33333, y: 108.51651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227645621
@@ -725,7 +725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.13001, y: -16.082}
+  m_AnchoredPosition: {x: 66.13001, y: -154.08199}
   m_SizeDelta: {x: 607.74, y: 65.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &453000732
@@ -993,7 +993,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.13001, y: -88}
+  m_AnchoredPosition: {x: 66.13001, y: -225.99998}
   m_SizeDelta: {x: 607.74, y: 65.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710799209
@@ -1128,7 +1128,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.13001, y: 148}
+  m_AnchoredPosition: {x: 66.13001, y: 10}
   m_SizeDelta: {x: 607.74, y: 65.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &713040970
@@ -1263,7 +1263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: 348.09}
+  m_AnchoredPosition: {x: 329, y: 210.09001}
   m_SizeDelta: {x: 53.05, y: 53.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732644315
@@ -1340,7 +1340,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297.9635, y: 348.0896}
+  m_AnchoredPosition: {x: -297.9635, y: 210.08961}
   m_SizeDelta: {x: 110.93751, y: 111.25222}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784149751
@@ -1458,7 +1458,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 88cbfa47e4244a54db65b481d8659b3d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ddab6fbdeaf3cf94f809704b74e633d7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.6
   m_Pitch: 1
@@ -1773,7 +1773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: 148}
+  m_AnchoredPosition: {x: 329, y: 10.000015}
   m_SizeDelta: {x: 53.05, y: 53.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1039591116
@@ -1850,7 +1850,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297.9635, y: -52.081787}
+  m_AnchoredPosition: {x: -297.9635, y: -190.08177}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1079355411
@@ -2034,7 +2034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0000038146973, y: -114.42963}
+  m_AnchoredPosition: {x: -0.0000038146973, y: -252.42963}
   m_SizeDelta: {x: 327.48, y: 65.17999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1319194362
@@ -2570,7 +2570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 329, y: -16.082}
+  m_AnchoredPosition: {x: 329, y: -154.08199}
   m_SizeDelta: {x: 53.05, y: 53.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640421750
@@ -2753,9 +2753,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Developer:\nIsaque Ramos Figueiredo Petri\n\nThird-Party Assets:\n- Hearts
-    -> VampireGirl;\n- Sounds -> L.i.Z.e.L.l.E_+,\nSalom\xE9_Lubczanski,\njivatma07\r,\nSergeQuadrado,\nSoundBiterSFX\n\nSpecial
-    thanks:\n- Beatriz R. S.\n- Louise S. N."
+  m_text: 'Developer:
+
+    Isaque Ramos Figueiredo Petri
+
+
+    Third-Party Assets:
+
+    -
+    Hearts -> VampireGirl;
+
+    - Sounds -> SergeQuadrado, jivatma07
+
+    SoundBiterSFX
+    & simondsouza
+
+
+    Special thanks for:
+
+    - Beatriz R. S.
+
+    - Louise S.
+    N.
+
+    - Richard B.
+
+    - Julia R. B.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2867,7 +2890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.13001, y: 348.09}
+  m_AnchoredPosition: {x: 66.13001, y: 210.09001}
   m_SizeDelta: {x: 607.74, y: 65.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892901040
@@ -3047,8 +3070,9 @@ GameObject:
   - component: {fileID: 2037940088}
   - component: {fileID: 2037940087}
   - component: {fileID: 2037940086}
+  - component: {fileID: 2037940090}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3136,6 +3160,102 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!82 &2037940090
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037940085}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2078738058
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,7 +3273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2078738059
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3172,10 +3292,10 @@ RectTransform:
   m_Father: {fileID: 46977812}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -710}
-  m_SizeDelta: {x: 800, y: 1420}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2078738060
 MonoBehaviour:

@@ -10,11 +10,6 @@ public class Damage : MonoBehaviour
     public GameObject gameOverPainel, damagePainel;
     public GameObject enemy1, enemy2, ally;
 
-   void Start()
-    {
-        //timer += Time.deltaTime;
-    }
-
     void Update()
     {
         if (HeartSistem.life <= 0)

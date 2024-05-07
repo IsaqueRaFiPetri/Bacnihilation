@@ -7,6 +7,10 @@ public class MenuController : MonoBehaviour
 {
     public GameObject creditsPainel, controlsPainel;
 
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
     public void PlayBTN()
     {
         SceneManager.LoadScene("GameScene");
